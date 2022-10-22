@@ -39,7 +39,7 @@ console.log(classItems);
 //     classItems[i].style.fontWeight="bold";
 // }
 //==========================================================================
-//Task-5) getElementByTagName:
+//Task-5) getElementByTagName ;
 //try editing it with getelementsbyclassname:
 for(let i=0; i<classItems.length; i++){
     classItems[i].style.backgroundColor='#f4f4f4';
