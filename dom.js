@@ -23,6 +23,12 @@ headerMain.style.borderBottom='solid 3px #000'
 //Q-3) Now make ADD ITEM bold and chage the font color to greeen
 let items=document.getElementsByClassName('list-group-item');
 console.log(items);
-items[1].textContent='Hello 2';
-items[1].style.fontWeight="bold";
-items[1].style.backgroundColor='green';
+// items[1].textContent='Hello 2';
+// items[1].style.fontWeight="bold";
+// items[1].style.backgroundColor='green';
+
+
+items[2].style.backgroundColor="green";
+for(let i=0; i<items.length; i++){
+    items[i].style.fontWeight="bold";
+}
