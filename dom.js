@@ -26,9 +26,13 @@ console.log(items);
 // items[1].textContent='Hello 2';
 // items[1].style.fontWeight="bold";
 // items[1].style.backgroundColor='green';
-
-
+//=============================================================================
+//Task-4) getElementbyClassname
+//Make the 3 rd element in the list have green background color.
 items[2].style.backgroundColor="green";
+
+//Make all the elements in the list have bold color font.
 for(let i=0; i<items.length; i++){
     items[i].style.fontWeight="bold";
 }
+//==========================================================================
